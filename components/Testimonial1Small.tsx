@@ -24,7 +24,7 @@ const Testimonial1Small = () => {
         <p className="text-xl font-medium text-center">
           <span className="bg-warning/25 px-1.5 rounded-md">
             {" "}
-            ب ڕێکا {config.appName}{" "}
+            ب ڕێکا {config.appName}{" Kurd.Soft"}
           </span>{" "}
           من کاری پرۆژا خۆ ب لەزگینی و کوالیتیەکا بلند جێبەجێ بکەم. گەلەک سپاس بۆ شارەزایا وە!
         </p>
