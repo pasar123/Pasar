@@ -13,14 +13,14 @@ const features: {
   svg: JSX.Element;
 }[] = [
   {
-    name: "Emails",
+    name: "Full-Stack Development",
     description: (
       <>
         <ul className="space-y-1">
           {[
-            "Send transactional emails",
-            "DNS setup to avoid spam folder (DKIM, DMARC, SPF in subdomain)",
-            "Webhook to receive & forward emails",
+            "Proficient in both front-end and back-end technologies",
+            "Experience with React, Node.js, and Python",
+            "Database design and optimization (SQL and NoSQL)",
           ].map((item) => (
             <li key={item} className="flex items-center gap-3">
               <svg
@@ -52,7 +52,7 @@ const features: {
                 clipRule="evenodd"
               />
             </svg>
-            Time saved: 2 hours
+            Delivering end-to-end solutions
           </li>
         </ul>
       </>

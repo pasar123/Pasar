@@ -40,6 +40,7 @@ const TestimonialsAvatars = ({ priority }: { priority?: boolean }) => {
               priority={priority}
               width={50}
               height={50}
+              className="rounded-2xl" // Changed to rounded-2xl
             />
           </div>
         ))}
@@ -66,8 +67,7 @@ const TestimonialsAvatars = ({ priority }: { priority?: boolean }) => {
         </div>
 
         <div className="text-base text-base-content/80">
-          <span className="font-semibold text-base-content">32</span> makers
-          ship faster
+          <span className="font-semibold text-base-content">٣٢</span> پرۆگرامساز خێراتر کار دکەن
         </div>
       </div>
     </div>

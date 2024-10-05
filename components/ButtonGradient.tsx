@@ -2,15 +2,17 @@
 
 import React from "react";
 
-const ButtonGradient = ({
-  title = "Gradient Button",
-  onClick = () => {},
-}: {
+interface ButtonGradientProps {
   title?: string;
   onClick?: () => void;
-}) => {
+}
+
+const ButtonGradient: React.FC<ButtonGradientProps> = ({ title = 'View all integrations!', onClick }) => {
   return (
-    <button className="btn btn-gradient animate-shimmer" onClick={onClick}>
+    <button
+      className="bg-gradient-to-r from-purple-500 to-pink-500 text-white font-bold py-2 px-4 rounded-xl"
+      onClick={onClick}
+    >
       {title}
     </button>
   );

@@ -44,7 +44,7 @@ const Testimonial = () => {
                 <Image
                   width={150}
                   height={50}
-                  className="w-20 md:w-24"
+                  className="w-20 md:w-24 rounded-lg" // Added rounded-lg class
                   // Ideally, load from a statically generated image for better SEO performance (import userImage from "@/public/userImage.png")
                   src="https://logos-world.net/wp-content/uploads/2020/10/Reddit-Logo.png"
                   alt="Reddit logo"
